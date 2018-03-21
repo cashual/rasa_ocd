@@ -1,0 +1,45 @@
+action_factory: remote
+
+intents:
+ - greet
+ - goodbye
+ - inform
+ - check_status
+ - fix_control
+ - create_story
+ - upload_evidence
+ - get_help
+
+entities:
+ - application-name
+ - ocd
+ - control-name
+ - date
+
+actions:
+ - utter_greet
+ - utter_info
+ - utter_for_which_application
+ - utter_for_which_control
+ - utter_goodbye
+ - utter_status
+ - utter_help
+
+templates:
+  utter_greet:
+    - 'Hi, how can I help?'
+    - 'Hello, how can I help you?'
+
+  utter_for_which_application:
+    - 'For which application?'
+
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+    - 'Bye and have a good day!'
+
+slots:
+  application-name:
+    type: text
+  control-name:
+    type: text

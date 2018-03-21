@@ -1,0 +1,27 @@
+{
+  "features": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_inform",
+    "intent_check_status",
+    "intent_fix_control",
+    "intent_create_story",
+    "intent_upload_evidence",
+    "intent_get_help",
+    "entity_application-name",
+    "entity_ocd",
+    "entity_control-name",
+    "entity_date",
+    "slot_application-name_0",
+    "slot_control-name_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_info",
+    "prev_utter_for_which_application",
+    "prev_utter_for_which_control",
+    "prev_utter_goodbye",
+    "prev_utter_status",
+    "prev_utter_help"
+  ]
+}

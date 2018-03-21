@@ -1,0 +1,371 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see ya",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Tell me about OCD?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "OCD",
+            "entity": "ocd"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "OCD",
+            "entity": ""
+          }
+        ]
+      },
+      {
+        "text": "Check control on COM",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "COM",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "Check control on CAA",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "CAA",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "Check control on gCashAPI",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "Check control on CashOrderAPI",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 17,
+            "end": 30,
+            "value": "CashOrderAPI",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "What do you mean with OCD?",
+        "intent": "ocd",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "OCD",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "What is going on with my OCD?",
+        "intent": "ocd",
+        "entities": [
+          {
+            "start": 22,
+            "end": 25,
+            "value": "OCD",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "I want help with OCD",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 20,
+            "value": "OCD",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "I have trouble with OCD",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "OCD",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "I have problem with OCD",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 20,
+            "end": 23,
+            "value": "OCD",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "What are controls? ",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "SO what am i supposed to do? ",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "what should i do?",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "i'm lost",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "i don't understand ",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "gcashapi",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "gcashapi",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "i want information about gCashAPI",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "about gCashAPI",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "tell me about the control for gCashAPI",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          },
+          {
+            "start": 18,
+            "end": 25,
+            "value": "control",
+            "entity": ""
+          }
+        ]
+      },
+      {
+        "text": "which control do you want me to check?",
+        "intent": "check_status",
+        "entities": []
+      },
+      {
+        "text": "I want to check controls for gCashAPI",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "control",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "i want to fix control CM02.2 for AccountInterface",
+        "intent": "fix_control",
+        "entities": [
+          {
+            "start": 33,
+            "end": 49,
+            "value": "AccountInterface",
+            "entity": "application-name"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "CM02.2",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "i want to fix control CM02.2 for CashOrderManager",
+        "intent": "fix_control",
+        "entities": [
+          {
+            "start": 33,
+            "end": 49,
+            "value": "com",
+            "entity": "application-name"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "CM02.2",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "Can you give me a status for foundation control fort CashAgreementAPI",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 53,
+            "end": 69,
+            "value": "CashAgreementAPI",
+            "entity": "application-name"
+          },
+          {
+            "start": 29,
+            "end": 39,
+            "value": "foundation",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "give me a status about FC01.1 for CashOrderManager",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 34,
+            "end": 50,
+            "value": "CashOrderManager",
+            "entity": "application-name"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "FC01.1",
+            "entity": "control-name"
+          }
+        ]
+      }
+    ]
+  }
+}
