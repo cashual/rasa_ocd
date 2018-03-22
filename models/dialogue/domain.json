@@ -22,6 +22,7 @@
     "prev_utter_for_which_control",
     "prev_utter_goodbye",
     "prev_utter_status",
-    "prev_utter_help"
+    "prev_utter_help",
+    "prev_utter_upload_evidence"
   ]
 }

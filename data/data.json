@@ -361,7 +361,7 @@
           {
             "start": 0,
             "end": 20,
-            "value": "Check the OCD for me",
+            "value": "OCD",
             "entity": "ocd"
           }
         ]
@@ -377,7 +377,7 @@
         "entities": []
       },
       {
-        "text": "upload generic evidence",
+        "text": "upload generic",
         "intent": "upload_evidence",
         "entities": []
       },
