@@ -98,7 +98,7 @@
       },
       {
         "text": "Check control on CAA",
-        "intent": "check_status",
+        "intent": "check_status ",
         "entities": [
           {
             "start": 17,
@@ -110,7 +110,7 @@
       },
       {
         "text": "Check control on gCashAPI",
-        "intent": "check_status",
+        "intent": "check_status ",
         "entities": [
           {
             "start": 17,
@@ -122,7 +122,7 @@
       },
       {
         "text": "Check control on CashOrderAPI",
-        "intent": "check_status",
+        "intent": "check_status ",
         "entities": [
           {
             "start": 17,
@@ -134,19 +134,7 @@
       },
       {
         "text": "What do you mean with OCD?",
-        "intent": "ocd",
-        "entities": [
-          {
-            "start": 22,
-            "end": 25,
-            "value": "OCD",
-            "entity": "ocd"
-          }
-        ]
-      },
-      {
-        "text": "What is going on with my OCD?",
-        "intent": "ocd",
+        "intent": "inform",
         "entities": [
           {
             "start": 22,
@@ -219,7 +207,7 @@
       },
       {
         "text": "gcashapi",
-        "intent": "check_status",
+        "intent": "check_status ",
         "entities": [
           {
             "start": 0,
@@ -313,24 +301,6 @@
         ]
       },
       {
-        "text": "i want to fix control CM02.2 for CashOrderManager",
-        "intent": "fix_control",
-        "entities": [
-          {
-            "start": 33,
-            "end": 49,
-            "value": "com",
-            "entity": "application-name"
-          },
-          {
-            "start": 22,
-            "end": 28,
-            "value": "CM02.2",
-            "entity": "control-name"
-          }
-        ]
-      },
-      {
         "text": "Can you give me a status for foundation control fort CashAgreementAPI",
         "intent": "check_status",
         "entities": [
@@ -362,6 +332,99 @@
             "start": 23,
             "end": 29,
             "value": "FC01.1",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "give me a status about CashOrderManager for FC01.1",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "CashOrderManager",
+            "entity": "application-name"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "FC01.1",
+            "entity": "control-name"
+          }
+        ]
+      },
+      {
+        "text": "Check the OCD for me",
+        "intent": "check_status",
+        "entities": [
+          {
+            "start": 0,
+            "end": 20,
+            "value": "Check the OCD for me",
+            "entity": "ocd"
+          }
+        ]
+      },
+      {
+        "text": "is there any evidence that i have to add? ",
+        "intent": "inform",
+        "entities": []
+      },
+      {
+        "text": "upload generic evidence",
+        "intent": "upload_evidence",
+        "entities": []
+      },
+      {
+        "text": "upload generic evidence",
+        "intent": "upload_evidence",
+        "entities": []
+      },
+      {
+        "text": "fix gcashapi for me ",
+        "intent": "fix_control",
+        "entities": [
+          {
+            "start": 4,
+            "end": 12,
+            "value": "gcashapi",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "Help me fix CM02.2 AccountInterface",
+        "intent": "fix_control",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "CM02.2",
+            "entity": "control-name"
+          },
+          {
+            "start": 19,
+            "end": 35,
+            "value": "AccountInterface",
+            "entity": "application-name"
+          }
+        ]
+      },
+      {
+        "text": "Can you helo me fix CM02.2 for gCashAPI",
+        "intent": "fix_control",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "gCashAPI",
+            "entity": "application-name"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "CM02.2",
             "entity": "control-name"
           }
         ]

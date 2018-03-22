@@ -82,3 +82,59 @@
     - utter_info
     - utter_info
     - export
+## Generated Story 8545853981574150673
+* greet
+    - utter_greet
+* check_status{"control-name": "fc01.1", "application-name": "com"}
+    - slot{"control-name": "com"}
+    - slot{"application-name": "fc01.1"}
+    - utter_status
+* check_status
+    - utter_status
+* check_status
+    - utter_status
+    - export
+## Generated Story -4336945195766914521
+* check_status
+    - utter_status
+* check_status
+    - utter_status
+* goodbye
+    - utter_goodbye
+* greet
+    - utter_greet
+    - export
+## Generated Story 8853016949036798427
+* greet
+    - utter_greet
+    - utter_greet
+    - utter_greet
+    - export
+## Generated Story -475173949602603512
+* check_status
+    - utter_status
+* goodbye
+* goodbye
+    - utter_goodbye
+    - export
+## Generated Story -8578956223593708550
+* greet
+    - utter_greet
+* check_status{"application-name": "me"}
+    - slot{"application-name": "me"}
+    - utter_status
+* check_status
+    - utter_status
+* fix_control
+    - export
+## Generated Story -9144353992423565464
+* greet
+    - utter_greet
+* fix_control{"control-name": "cm02.2", "application-name": "gcashapi"}
+    - slot{"control-name": "cm02.2"}
+    - slot{"application-name": "gcashapi"}
+* inform
+* upload_evidence
+* goodbye
+    - utter_goodbye
+    - export
